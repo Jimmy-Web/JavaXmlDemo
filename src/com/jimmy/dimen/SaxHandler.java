@@ -58,9 +58,9 @@ public class SaxHandler extends DefaultHandler {
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		// TODO Auto-generated method stub
 		System.out.println(TAG + "characters...");
-		System.out.println(TAG + "ch生成字符串=" + ch.toString());
+//		System.out.println(TAG + "ch生成字符串=" + String.valueOf(ch));
 		System.out.println(TAG + "start=" + start);
-		System.out.println(TAG + "length" + length);		
+		System.out.println(TAG + "length" + length); 		
 		super.characters(ch, start, length);
 	}  
     

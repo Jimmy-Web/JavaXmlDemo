@@ -22,7 +22,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.AttributesImpl;
 
-public class XMLBuilder {
+public class XmlBuilder {
 
 	// 创建解析工厂
 	private SAXParserFactory saxParserFactory;
@@ -33,7 +33,7 @@ public class XMLBuilder {
 
 	private XMLReader xmlReader;
 
-	public XMLBuilder() {
+	public XmlBuilder() {
 		if (saxParserFactory == null) {
 			this.saxParserFactory = SAXParserFactory.newInstance();
 		}
@@ -44,7 +44,7 @@ public class XMLBuilder {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (SAXException e) {
-				// TODO Auto-generated catch block
+				// TODO Auto-generated catch block	
 				e.printStackTrace();
 			}
 		}
@@ -53,7 +53,7 @@ public class XMLBuilder {
 		}
 	}
 
-	private void parserXml(File file, int parserStyle) {
+	public void parserXml(File file, int parserStyle) {
 		switch (parserStyle) {
 		case 0:
 			saxParser(file);
