@@ -1,4 +1,4 @@
-package com.jimmy.dimen;
+package com.jimmy.util;
 
 public class Constant {
 	//此参数代表解析XML使用SAXReader

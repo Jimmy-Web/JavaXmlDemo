@@ -1,4 +1,4 @@
-package com.jimmy.dimen;
+package com.jimmy.util;
 
 public class Book {
 	private String category;
