@@ -27,7 +27,7 @@ public class run {
 //		}
 //		
 //		xmlBuilder.createXml("",books);
-		AndroidDimenBuilder calculator = new AndroidDimenBuilder();
+		AndroidDimenBuilder androidDimenBuilder = new AndroidDimenBuilder();
 		
 	}
 

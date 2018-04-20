@@ -142,7 +142,7 @@ public class XmlBuilder {
 			info.setOutputProperty(OutputKeys.VERSION, "1.0");
 			// 保存创建的saxbooks.xml
 			StreamResult result = new StreamResult(
-					new FileOutputStream(new File("resources/saxbooks.xml")));
+					new FileOutputStream(new File(path)));
 			handler.setResult(result);
 			// 开始xml
 			handler.startDocument();
